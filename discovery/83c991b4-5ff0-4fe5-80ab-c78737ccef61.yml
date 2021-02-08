@@ -7,6 +7,7 @@ metadata:
 name: List group password hashes
 description: |
   The group hashes for all groups present will be displayed from /etc/gshadow file.
+tactic: discovery
 technique:
   id: T1082
   name: System Information Discovery
